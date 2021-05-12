@@ -59,7 +59,7 @@ As a <strong>buyer</strong>I want to be able to view a seller's profile (info an
 As a <strong>buyer</strong> I want to be able to add a review to the seller's profile.
 
 As a <strong>buyer</strong> I want to be able to quickly contact the seller about buying a choco
-<br>
+
 As a <strong>seller</strong> I want to be able to add seller information to my profile.
 
 As a <strong>seller</strong> I want to provide contact details to potential buyers.
