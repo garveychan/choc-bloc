@@ -82,7 +82,14 @@ choc_details = {
 }
 
 choc_details.each_with_index do |(choc_name, choc_desc), index|
-  choc = {name: choc_name, description: choc_desc, price: rand(1..1000000).to_s, age: rand(1..500).to_s, rating: rand(1..100).to_s, user_id: rand(1..users.size)}
+  choc = {
+    name: choc_name,
+    description: choc_desc,
+    price: rand(1..1000000).to_s,
+    age: rand(1..500).to_s,
+    rating: rand(1..100).to_s,
+    user_id: rand(1..users.size)
+  }
   listing = Listing.create!(choc)
   listing.image.attach(io: File.open(Rails.root / 'docs' / 'choc_seeds' / "choc_#{index + 1}.jpeg"), filename:"choc_#{index + 1}.jpeg")
 end
