@@ -8,12 +8,10 @@
 
 ##### Henry Drayton & Garvey Chan
 
-<br>
+<hr>
 
 ### Heroku Link
 https://chocbloc.herokuapp.com/
-
-<br>
 
 ### Time Period
 
