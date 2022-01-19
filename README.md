@@ -11,7 +11,7 @@
 <hr>
 
 ### Heroku Link
-https://chocbloc.herokuapp.com/
+https://choc-bloc.herokuapp.com/
 
 ### Time Period
 
