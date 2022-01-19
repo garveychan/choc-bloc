@@ -1,5 +1,9 @@
 {
   "name": "chocbloc",
+  "version": "0.1.0",
+  "engines": {
+    "node": "14.x"
+  },
   "private": true,
   "dependencies": {
     "@popperjs/core": "^2.9.2",
@@ -12,7 +16,6 @@
     "popper.js": "^1.16.1",
     "turbolinks": "^5.2.0"
   },
-  "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^3.11.2"
   }
